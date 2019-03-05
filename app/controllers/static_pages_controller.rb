@@ -10,5 +10,8 @@ class StaticPagesController < ApplicationController
 
   def temp
   end
+
+  def contact
+  end
   
 end
