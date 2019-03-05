@@ -16,4 +16,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get temp" do
+    get static_pages_temp_url
+    assert_response :success
+  end
+  
 end
